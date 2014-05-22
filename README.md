@@ -6,7 +6,7 @@ in memory. Ideal to read massive files.
 
 # Usage:
 
-'''js
+```JavaScript
 var BufferedFileLineReaderSync = require('buffered-file-line-reader-sync');
 
 var line;
@@ -22,23 +22,23 @@ bufferedReader = new BufferedFileLineReaderSync(filename, options);
 while (bufferedReader.hasNextLine()) {
     console.log(bufferedReader.nextLine());
 }
-'''
+```
 
 # API:
 
-** Class: BufferedFileLineReaderSync(path [, options]) **
+### Class: BufferedFileLineReaderSync(path [, options])
 
 - `path`: path to the file to read
 - `options`: object with the following parameters:
-    - string `encoding` (defaults to `'utf8'`: any encoding supported by
+    - string `encoding` (defaults to `'utf8'`): any encoding supported by
     `Buffer.toString` method of the `Buffer` node base class.
     - int `bufferSize` (defaults to 8192): size in octets (bytes) of the
     underlying buffer used.
 
-** nextLine() **
+### nextLine()
 
 Reads the next line in the file. Returns `null` if done reading.
 
-** hasNextLine() **
+### hasNextLine()
 
 Returns a boolean value to indicate if all lines have been read.
