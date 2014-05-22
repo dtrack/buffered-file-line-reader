@@ -1,0 +1,10 @@
+This is a test file.
+With multiple lines.
+
+Some of them are blank.
+
+
+
+Sometimes there are multiple blank lines.
+
+This file ends up with a new line.

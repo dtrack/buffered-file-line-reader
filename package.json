@@ -1,0 +1,31 @@
+{
+  "name": "buffered-file-line-reader-sync",
+  "version": "0.1.0",
+  "description": "A simple tool that let you synchronously iterate through the lines of a file without loading the whole file in memory.",
+  "main": "buffered-file-line-reader-sync.js",
+  "scripts": {
+    "test": "nodeunit --reporter=junit --output _build tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dtrack/buffered-file-line-reader.git"
+  },
+  "keywords": [
+    "file",
+    "fs",
+    "line",
+    "reader",
+    "sync",
+    "buffered"
+  ],
+  "author": "Jeremy Henault <jeremy@jhenault.net> (http://jhenault.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtrack/buffered-file-line-reader/issues"
+  },
+  "homepage": "https://github.com/dtrack/buffered-file-line-reader",
+  "devDependencies": {
+    "nodeunit": "*",
+    "sinon": "*"
+  }
+}

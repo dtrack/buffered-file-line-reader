@@ -1,0 +1,5 @@
+Another test file.
+
+This one doesn't endup with a new line.
+
+Let's see if our File Reader can behave correctly.
